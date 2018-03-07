@@ -20,8 +20,5 @@ public class TestGameObject : NetworkBehaviour {
     public void RpcDoStuff()
     {
         Debug.Log("Stuff");
-#if UNITY_ANDROID
-			AndroidHelper.ShowAndroidToastMessage ( "Doing STUFF" );
-#endif
     }
 }
